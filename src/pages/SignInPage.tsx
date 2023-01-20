@@ -7,7 +7,7 @@ export function SignInPage(): JSX.Element {
     const navigate = useNavigate();
     return (
             <SignInForm
-                projectId="f85d61a5-2f6d-49bb-a2ec-8a95abb55a86"
+                projectId="7957837e-a38f-4788-ba6f-4485566828d0"
                 googleClientId="397236612778-c0b5tnjv98frbo1tfuuha5vkme3cmq4s.apps.googleusercontent.com"
                 onSuccess={() => navigate('/')}
                 >
