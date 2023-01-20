@@ -16,6 +16,7 @@
         "@medplum/fhirtypes": "1.0.5",
         "@medplum/react": "1.0.5",
         "@tabler/icons": "1.110.0",
+        "@types/jest": "^29.2.6",
         "@types/react": "18.0.25",
         "@types/react-dom": "18.0.8",
         "@typescript-eslint/eslint-plugin": "5.42.1",
@@ -36,5 +37,9 @@
     "prettier": {
         "printWidth": 120,
         "singleQuote": true
+    },
+    "dependencies": {
+        "@medplum/mock": "^1.0.6",
+        "@testing-library/react": "^13.4.0"
     }
 }
